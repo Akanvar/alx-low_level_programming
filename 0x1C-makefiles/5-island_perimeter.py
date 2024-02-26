@@ -3,7 +3,8 @@
 
 
 def island_perimeter(grid):
-    """Calculates perimeter of an island grid.
+    """
+    Calculates perimeter of an island grid.
     `grid` represents water by 0 and land by 1.
     `grid` cells are connected horizontally/vertically (not diagonally)
     Args:
