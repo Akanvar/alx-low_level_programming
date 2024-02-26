@@ -1,12 +1,11 @@
 #!usr/bin/python3
 """Defines an island perimeter measuring function"""
 
-def island_perimeter(grid:list) -> int:
-    """Calculates perimeter of an island grid.
 
+def island_perimeter(grid):
+    """Calculates perimeter of an island grid.
     `grid` represents water by 0 and land by 1.
     `grid` cells are connected horizontally/vertically (not diagonally)
-
     Args:
         grid(list): A list of list of integers representing an island.
     Return:
